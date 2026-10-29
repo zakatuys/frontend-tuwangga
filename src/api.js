@@ -1,6 +1,6 @@
 import { supabase } from './lib/supabaseClient';
 
-const BASE_URL = 'http://localhost:8080/api/v1';
+const BASE_URL = 'https://accursed-poltergeist-jrqrv976r7wx2pg9j-8080.app.github.dev/api/v1';
 
 async function authHeader() {
     const { data } = await supabase.auth.getSession();
